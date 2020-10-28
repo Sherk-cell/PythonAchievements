@@ -1,19 +1,30 @@
 import os
 import time
-Factory = ["apple", ""]
-Distribution = ["apple", ""]
-shop = ["apple", ""]
-
-print("Factory: ['" + Factory[0] + "']")
-print("Distribution: ['" + Distribution[1] + "']")
-print("shop: ['" + shop[1] + "']")
+Factory = []
+Distribution = []
+shop = []
+item = "apple"
+#Factory.insert(1, item)
+print("Factory:",Factory )
+print("Distribution:",Distribution)
+print("shop:",shop)
 time.sleep(1)
 os.system('cls')
-print("Factory: ['" + Factory[1] + "']")
-print("Distribution: ['" + Distribution[0] + "']")
-print("shop: ['" + shop[1] + "']")
+Factory.insert(0, item)
+print("Factory:",Factory )
+print("Distribution:",Distribution)
+print("shop:",shop)
 time.sleep(1)
 os.system('cls')
-print("Factory: ['" + Factory[1] + "']")
-print("Distribution: ['" + Distribution[1] + "']")
-print("shop: ['" + shop[0] + "']")
+Distribution.insert(0, item)
+Factory.pop(0)
+print("Factory:",Factory,)
+print("Distribution:",Distribution)
+print("shop:",shop)
+time.sleep(1)
+os.system('cls')
+Distribution.pop(0)
+shop.insert(1, item)
+print("Factory:", Factory )
+print("Distribution:",Distribution)
+print("shop:",shop)

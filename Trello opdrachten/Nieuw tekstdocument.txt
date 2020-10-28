@@ -1,1 +1,0 @@
-print("Mijn naam is Byron, ik ben 17 jaar geworden. Ik woon in Amsterdam, en ik woon 2,1 kilometer van het Mediacollege.")
