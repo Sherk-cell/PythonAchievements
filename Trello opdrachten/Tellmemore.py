@@ -1,0 +1,7 @@
+print("Hallo ik ben Byron en ik heb een paar vragen over jouw")
+naam = input("wat is jouw naam: ")
+print("ah dus jouw naam is " + naam)
+leeftijd = input("hoe oud ben jij " + naam + "?: ")
+print("oke dus jij bent " + leeftijd + " jaar oud ")
+stad = input ("en mijn laatste vraag is waar woon je " + naam + "?: ")
+print("oke dus jouw naam is " + naam + " je bent " + leeftijd + " jaar oud en je leeft in " + stad)
